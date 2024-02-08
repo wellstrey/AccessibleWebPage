@@ -5,38 +5,50 @@
 </head>
 <body>
     <header>
+        <img src="tamulogo.png" alt="decorative">
         <h1>Accessibility Profile</h1>
     </header>
     
+    <section class="intro">
         <p>
             My name is Trey Wells and here is a picture of myself <br>
         </p>
-        <img src="Headshot.png" alt="Example Image">
-        <p>
-            I have been working in the field of web accessibility for [X years] and have experience with various accessibility standards such as WCAG (Web Content Accessibility Guidelines).
-        </p>
+        <img src="Headshot.png" alt="Headshot of Trey Wells" class="headshot"> <br>
+    </section>
 
-        <h2>Interests</h2>
+    <section class="info">
+        <h2>
+            Information about myself!
+        </h2>
         <p>
-            Some of my interests in accessibility include:
+            I am a current senior in Computer Science and my specialty is in Cybersecurity. 
         </p>
+        <p><strong>Here are some of my interests in accessibility</strong></p>
         <ul>
-            <li>Creating accessible websites and applications</li>
-            <li>Advocating for accessibility in the tech industry</li>
-            <li>Teaching others about the importance of web accessibility</li>
+            <li>Understanding the laws and regulations that come with creating accessible software products</li>
+            <li>Creating software that helps those who are vision-impaired</li>
+            <li>Creating teaching products that make it easy for everyone to learn about <strong>Cybersecurity</strong>, regardless of disability</li>
         </ul>
+    </section>
 
+    <section class="cat">
+        <h2>One of my favorite things is my cat, Cocoa:</h2><br>
+        <img src="cocoa.jpeg" alt="Picture of Trey Wells's cat, Cocoa" class="cat-image"> <br>
+    </section>
+
+    <section class="email">
         <h2>Contact Me</h2>
+        
         <form action="mailto:wells.t.2020@gmail.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
-            <button type="submit">Send</button>
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
         </form>
-
-
+    </section>
 </body>
 </html>
